@@ -12,13 +12,15 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
+
 }
 
 .half-width {
     width: 50%;
     margin-left: 30px;
+
 }
 
 .half-width img {
@@ -46,4 +48,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flexible {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.items {
+    width: 50%;
+    margin-left: 30px;
+    box-shadow: 10px 10px 20px gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 6px solid blue;
+}
+
+#tomato {
+    border-left: 7px solid tomato;
+}
+
+footer {
+    text-align: center;
 }
